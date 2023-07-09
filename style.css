@@ -1,0 +1,91 @@
+@font-face {
+    font-family: ExtricaFont;
+    src: url("FontsFree-Net-FontMesa-MarlinSoftBasic-Regular.ttf")
+}
+
+body {
+    background-image: url("alexandra-lee-ZxeJ3tBj8ew-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: ExtricaFont;
+    font-weight: 300;
+    height: 100vh;
+    margin-left: 40px;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    height: 70px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.user-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-data > a{
+    padding: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+
+.title {
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    width: 60%;
+    display: block;
+}
+
+#submit-article {
+    border: 2px solid white;
+    border-radius: 26px;
+    padding: 18px;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-sub {
+    color: white;
+    border-bottom: solid 2px white;
+    width: 30%; 
+    height: 4rem;
+    margin-top: 7%;
+    font-size: 25px;
+}
